@@ -40,11 +40,6 @@ python script_name.py 5 3
 ## Requirements
 
 - Python 3.x or higher
-- Required Python libraries (if any) are listed below:
-
-  ```bash
-  pip install <library_name>
-  ```
 
 ## How It Works
 
