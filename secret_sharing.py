@@ -5,8 +5,6 @@ Description: This is a basic implmentation of a shmair secret sharing scheme
 Date: 19 Feburary 2024
 Last Modified: 18 November 2024
 ------------------------------------------------
-Note: this only seems to work with small amounts of shares and a small threshold.
-I am having trouble expanding this to work for larger variables.
 """
 import random
 import argparse
