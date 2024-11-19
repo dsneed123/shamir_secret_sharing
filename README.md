@@ -58,3 +58,30 @@ The script uses the Shamir Secret Sharing algorithm to divide a secret into mult
 ## Acknowledgments
 
 - Shamir's Secret Sharing is a cryptographic algorithm developed by Adi Shamir in 1979.
+## Graphing Option
+
+This script also includes an optional `-g` flag for graphing the polynomial and shares. To use this feature, you need to have `matplotlib` installed. You can install it using pip:
+
+```bash
+pip install matplotlib
+```
+
+### Usage with Graphing
+
+To run the script with the graphing option, use the `-g` flag:
+
+```bash
+python script_name.py num_shares threshold -g
+```
+
+This will generate and display a graph of the polynomial and the generated shares.
+
+### Example
+
+For example, to create 5 shares with a threshold of 3 and display the graph, you would run:
+
+```bash
+python script_name.py 5 3 -g
+```
+
+The graph will show the polynomial curve and the points representing the shares.
